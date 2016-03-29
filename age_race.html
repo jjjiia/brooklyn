@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="UTF-8">
+	  
+	<title>threads</title>
+	<script src="static/javascripts/d3.v3.min.js"></script>
+	<script src="static/javascripts/topojson.v1.min.js"></script>
+	<script src="static/javascripts/jquery.min.js"></script>
+	<script src="static/javascripts/d3.tip.v0.6.3.js"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src="static/javascripts/jquery-ui.min.js"></script>
+	<script src="static/javascripts/jquery-ui.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="static/stylesheets/mapGrid.css"> </style>
+	
+     
+</head>
+
+<body>
+  <div id = "title">test for narrative threading</div>
+
+<div class="dropdown">
+<form>
+    <select id ="subjectSelect">
+    </select>
+  </div>
+</form>
+    
+</div>
+  
+
+<div id = "categories"></div>
+<div id = "map"></div>
+<div id = "time"></div>
+<div id = "details"></div>
+
+<script type="text/javascript" charset="utf-8">
+    var tracts = "data_geometry/base_tracts.geojson"
+    var dataFiles = "data_census/by_code_short.json"
+    var b00001 = "data_census/byId_shortIds/B00001.json"
+    
+</script>
+	
+<script src="age_race.js"></script>
+	
+</body>
+</html>

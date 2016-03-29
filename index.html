@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="UTF-8">
+	  
+	<title>threads</title>
+	<script src="static/javascripts/d3.v3.min.js"></script>
+	<script src="static/javascripts/topojson.v1.min.js"></script>
+	<script src="static/javascripts/jquery.min.js"></script>
+	<script src="static/javascripts/d3.tip.v0.6.3.js"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src="static/javascripts/jquery-ui.min.js"></script>
+	<script src="static/javascripts/jquery-ui.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="static/stylesheets/dot.css"> </style>
+	
+     
+</head>
+
+<body>
+  <div id = "title">
+  test for narrative threading
+</div>
+<div id = "map"></div>
+<script type="text/javascript" charset="utf-8">
+    var tracts = "base_brooklyn_tracts.geojson"
+    
+    
+    var population = "aff_download/ACS_14_5YR_B00001_with_ann.csv"
+    var weighted_population  = "aff_download/ACS_14_5YR_B01003_with_ann.csv"
+    var housingUnits = "aff_download/ACS_14_5YR_B00002_with_ann.csv"
+    var housingOccupancyStatus = "aff_download/ACS_14_5YR_B25002_with_ann.csv"
+    var housingTenure = "aff_download/ACS_14_5YR_B25003_with_ann.csv"
+    var housingVacancy = "aff_download/ACS_14_5YR_B25004_with_ann.csv"
+    var raceOfHouseholder = "aff_download/ACS_14_5YR_B25006_with_ann.csv"
+    var meansOfTransport = "aff_download/ACS_14_5YR_B08301_with_ann.csv"
+    var timeLeavingForWork = "aff_download/ACS_14_5YR_B08302_with_ann.csv"
+    var commuteTime = "aff_download/ACS_14_5YR_B08303_with_ann.csv"
+    var householdType = "aff_download/ACS_14_5YR_B11001_with_ann.csv"
+    //var age = "aff_download/
+    var race = "aff_download/ACS_14_5YR_B02001_with_ann.csv"
+    //var previousAddress = "aff_download/
+    //var rent = "aff_download/"
+    var income = "aff_download/ACS_14_5YR_B19001_with_ann.csv"
+    var publicAssistance = "aff_download/ACS_14_5YR_B19057_with_ann.csv"
+    var incomeMedian = "aff_download/ACS_14_5YR_B19013_with_ann.csv"
+    var languages = "aff_download/ACS_14_5YR_B16002_with_ann.csv"
+    var education = "aff_download/ACS_14_5YR_B15003_with_ann.csv"
+    var fieldOfBachelors = "aff_download/ACS_14_5YR_C15010_with_ann.csv"
+</script>
+	
+<script src="map.js"></script>
+	
+</body>
+</html>
